@@ -12,4 +12,6 @@ feature 4 time
 
 now doing feature5 - and modified on a second commit to make things out of sync.
 
-feature6 change
+feature6 change - scenario1-feature2
+
+s1-feature1
