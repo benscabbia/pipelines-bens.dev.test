@@ -17,3 +17,5 @@ feature6 change - scenario1-feature2
 s1-feature1
 
 ------------------------------------------
+
+Message 1
