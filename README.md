@@ -31,3 +31,5 @@ Another PR -> another commit -> AND ANOTHER -> and another4 -< another5 -> anoth
 Multi Promo Change
 4567
 ---someChange
+
+Some change multi-promo-branch
