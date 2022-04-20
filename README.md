@@ -19,4 +19,4 @@ s1-feature1
 SPECIAL yankai-hotfix1,2,3
 4
 
-OVERRIDE-from-feature-second
+OVERRIDE-from-feature-first
