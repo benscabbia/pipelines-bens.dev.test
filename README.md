@@ -16,4 +16,4 @@ feature6 change - scenario1-feature2
 
 s1-feature1
 
-yankai-hotfix1
+yankai-hotfix1,2
