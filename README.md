@@ -1,4 +1,4 @@
-Hello - there - I SYNC6
+Hello SYNC8!
 
 I added a comment
 
