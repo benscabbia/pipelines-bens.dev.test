@@ -1,6 +1,3 @@
-/**
- * @description Hello World
- */
 public class ClassA {
     /**
     * @description Bar
