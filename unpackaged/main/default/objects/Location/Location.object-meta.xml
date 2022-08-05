@@ -133,6 +133,8 @@
         <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>VisitorAddress</lookupPhoneDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>VisitorAddress</lookupDialogsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
