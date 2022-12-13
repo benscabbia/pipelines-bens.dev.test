@@ -8,7 +8,7 @@
         <actionName>CallHighlightAction</actionName>
         <formFactor>Large</formFactor>
         <type>Default</type>
-    </actionOv
+    </actionOverrides>
     <actionOverrides>
         <actionName>CallHighlightAction</actionName>
         <formFactor>Small</formFactor>
