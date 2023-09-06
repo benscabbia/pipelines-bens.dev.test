@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Validation_Rule_BS</fullName>
+    <active>true</active>
+    <description>email&gt;3 characters</description>
+    <errorConditionFormula>LEN( Email ) &gt; 3</errorConditionFormula>
+    <errorDisplayField>Email</errorDisplayField>
+    <errorMessage>Email must be at least &quot;3&quot; characters &amp;&amp; not more than &apos;3&apos;</errorMessage>
+</ValidationRule>

@@ -3,6 +3,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.BS_Subcomponent_Enable__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Red__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -133,6 +138,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>FalsePositives_User_Department__c.User_department_falsepositives__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>FalsePositives_User_Profile__c.User__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>LegalEntity.CompanyName</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -176,6 +191,36 @@
         <field>Seller.SellerType</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.FalsePositives_Admin_DepId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.FalsePositives_Admin_Department_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.FalsePositives_Admin_Departments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Lizard__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Customer_Account</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Partner_Account</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>

@@ -31,7 +31,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.BS_Subcomponent_Enable__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.BS__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.BensNumberField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Bens_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -70,6 +85,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Has_Support_Plan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Industry</field>
         <readable>true</readable>
@@ -87,6 +107,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.NaicsDesc</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.NewField20200306__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -125,6 +150,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Region__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.SLAExpirationDate__c</field>
         <readable>true</readable>
@@ -160,6 +190,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Support_Plan_Expiration_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.TickerSymbol</field>
         <readable>true</readable>
@@ -187,6 +222,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.YearStarted</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Zone__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -411,6 +451,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Campaign.DB_Campaign_Tactic__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Campaign.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -497,6 +542,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.AssetId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Backup_Agent__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1091,6 +1141,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Event.DB_Activity_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Event.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1112,6 +1167,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Event.WhoId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>FalsePositives_User_Department__c.User_department_falsepositives__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>FalsePositives_User_Profile__c.User__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1250,6 +1315,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.DB_Created_Date_without_Time__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.DB_Lead_Age__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.DandbCompanyId</field>
         <readable>true</readable>
@@ -1320,6 +1395,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Region__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.SICCode__c</field>
         <readable>true</readable>
@@ -1365,13 +1445,33 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Amount_After_Discount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.CampaignId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Close_Reason__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Commission__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.CurrentGenerators__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.DB_Competitor__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1382,6 +1482,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Discount_Percentage__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1417,6 +1522,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Probability</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Region_Zone__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1671,6 +1781,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Task.DB_Activity_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Task.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1684,6 +1799,41 @@
         <field>Task.WhoId</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.DB_Region__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.FalsePositives_Admin_DepId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.FalsePositives_Admin_Department_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.FalsePositives_Admin_Departments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Lizard__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.Customer_Account</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Partner_Account</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
@@ -1864,6 +2014,14 @@
     <tabVisibilities>
         <tab>standard-FinanceTransaction</tab>
         <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-FlowOrchestrationInstance</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-FlowOrchestrationWorkItem</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Forecasting3</tab>
@@ -2392,6 +2550,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageConvMiningReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageCustomPermissions</name>
     </userPermissions>
     <userPermissions>
@@ -2465,6 +2627,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageNetworks</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageOrchInstsAndWorkItems</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
