@@ -10,6 +10,7 @@ public class UnitTestA {
         System.assertEquals(true, bresult);
     }
     
+	
     @isTest static void testC() {        
         System.assertEquals(false, true);
     }
