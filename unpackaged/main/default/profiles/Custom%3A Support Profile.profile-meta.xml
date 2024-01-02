@@ -1,15 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
-    <fieldPermissions>
-        <editable>false</editable>
-        <readable>false</readable>
-        <field>A1__c.A2__c</field>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>A1__c.url_link__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
@@ -2366,12 +2357,6 @@
         <visible>true</visible>
     </applicationVisibilities>
     <layoutAssignments>
-        <layout>A1__c-A1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>A2__c-A2 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Account-Account %28Support%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2391,9 +2376,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AssociatedLocation-Associated Location Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>BensCustomMetadataType__mdt-BensCustomMEtadataType Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>BusinessBrand-Business Brand Layout</layout>
