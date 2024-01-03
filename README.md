@@ -1,1 +1,3 @@
-Update readme12
+Update readme2
+
+propagation correct
